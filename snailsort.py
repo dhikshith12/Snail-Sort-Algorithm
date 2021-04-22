@@ -1,35 +1,4 @@
-# # Example 1.
-# matrix = [
-#     [1, 2, 3],
-#     [4, 5, 6], 
-#     [7, 8, 9]
-# ]
-# # Expected = [1, 2, 3, 6, 9, 8, 7, 4, 5]
-# print some_function(matrix)
 
-# # Example 2.
-# matrix = [
-#     [1,  2 , 3,  4,  5 ],
-#     [6,  7 , 8 , 9,  10], 
-#     [11, 12, 13, 14, 15],
-#     [16, 17, 18, 19, 20]
-# ]             
-# # Expected = [1, 2, 3, 4, 5, 10, 15, 20, 19, 18, 17, 16, 11, 6, 7, 8, 9, 14, 13, 12]
-# print some_function(matrix)
-"""
-Given a matrix of m x n elements (m rows, n columns),
-return all elements of the matrix in spiral order.
-For example,
-Given the following matrix:
-[
- [ 1, 2, 3 ],
- [ 4, 5, 6 ],
- [ 7, 8, 9 ]
-]
-
-
-It should return [1,2,3,6,9,8,7,4,5].
-"""
 def spiral_traversal(matrix):
     res = []
     if len(matrix) == 0:
